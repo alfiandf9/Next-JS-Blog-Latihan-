@@ -19,7 +19,7 @@ export default function Post() {
         {!posts.length ? (
           <div className="text-center py-20">
             <h2 className="text-6xl">No Result 😭</h2>
-            <p className="text-xl text-white/60 mt-4 md:w-6/12 w-full mx-auto">We couldn’t find any posts with the keyword `yahahahayuk`. Please try another keyword.</p>
+            <p className="text-xl text-white/60 mt-4 md:w-6/12 w-full mx-auto">{`We couldn’t find any posts with the keyword "yahahahayuk". Please try another keyword`}.</p>
           </div>
         ) : (
           <div className="flex -mx-4 flex-wrap mt-6">
